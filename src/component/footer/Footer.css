@@ -1,0 +1,55 @@
+footer{
+    background-color: #003366;
+}
+.cdmiDtl{
+    max-width: 380px;
+}
+.cdmiText p{
+    padding-top: 20px;
+    text-align: justify !important;
+    color: white;
+}
+.cdmiText span{
+    color: #ffbc06;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0;
+    display: block;
+}
+.logoCOver{
+    padding: 5px 8px;
+    background-color: #1a4876;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.Clogo{
+    color: white;
+    font-size: large;
+}
+.cdmilinkList,.Address{
+    padding-top: 30px;
+}
+.liCdmi,.branch{
+    padding-top: 20px;
+}
+.cdmiLink,.liCdmi a,.ContactUs{
+    color: white;
+    text-decoration: none;
+}
+.liCdmi,.BranchName{
+    list-style: none;
+}
+.Address h4,.Address p span{
+    color: #ffbc06;
+}
+.Address h4{
+    text-align: left !important;
+}
+.Address p,.BranchName{
+    font-size: 18px;
+    padding-top: 10px
+}
+
+@media (max-width: 1250px) {
+    
+  }

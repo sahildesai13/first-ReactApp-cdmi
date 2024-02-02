@@ -1,0 +1,43 @@
+.stb-120{
+   margin-top: 120px ; 
+   margin-bottom: 120px ; 
+}
+.auto4{
+    grid-template-columns: auto auto auto auto;
+}
+.counterCover{
+    position: relative;
+    background-image: url('img/counter_bg.jpg');
+    object-fit: cover;
+    background-position: center;
+}
+.counterCover::after{
+    position:absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 41, 77, 0.70);
+    left: 0;
+    top : 0;
+    z-index: 1;
+}
+.counter{
+    position: relative;
+    z-index: 2;
+    color: white;
+    margin-left:  50px;
+    margin-right:  50px;
+
+}
+.counterNumber{
+    max-width: 100%;
+}
+.counterNumber P{
+    font-weight: 700;
+}
+.counterNumber h2{
+    font-size: 30px;
+}
+.t-center{
+    text-align: center !important;
+}

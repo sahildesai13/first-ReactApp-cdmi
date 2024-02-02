@@ -1,0 +1,38 @@
+.partnerTitle span {
+    position: relative;
+    margin: auto;
+    text-align: center !important;
+}
+.titleCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partnerTitle h2 {
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 12px;
+    padding-bottom: 50px;
+}
+
+.partner-container {
+    padding: 0px 70px 0 70px;
+}
+
+.auto6 {
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.partnerDtl {
+    gap: 20px;
+}
+
+.partnerImg,
+.partnerImg img {
+    width: 100%;
+}
+
+.partnerImg {
+    border: 1px solid  #ddd;
+    padding: 5px;
+}

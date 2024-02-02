@@ -1,0 +1,81 @@
+.stb-70 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.j-between {
+    justify-content: space-between !important;
+}
+
+.AboutT p {
+    font-size: 16px !important;
+    padding-left: 30px;
+    position: relative;
+    text-align: left !important;
+    color: black !important;
+}
+
+.AboutImg,
+.AboutCover {
+    width: 50%;
+}
+.AboutImg{
+    max-width: 633px;
+}
+.AboutImg img {
+    max-width: 100%;
+}
+
+.AboutT p::after {
+    left: 0px !important;
+    width: 25px !important;
+    height: 2px !important;
+}
+.AboutCover{
+    position: relative;
+}
+.AboutDtl {
+    background-color: white;
+    position: absolute;
+    top: -5%;
+    right: -30%;
+    padding: 100px 70px;
+    border-top-right-radius: 240px;
+    border-bottom-right-radius: 240px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    z-index: 10;
+}
+
+.AboutDtl h4 {
+    padding-bottom: 20px;
+    text-align: left !important;
+}
+
+.AboutDtl p {
+    text-align: justify;
+    font-size: 18px;
+    color: #46464688;
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+}
+.AboutUs{
+    width: 100%;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1025px) {
+    .AboutDtl p {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    .AboutDtl{
+        top: -20%;
+        right: -30%;
+        padding: 50px 30px ;
+        padding-right: 80px;
+    }
+    .AboutImg {
+        width: 426px;
+    }
+}

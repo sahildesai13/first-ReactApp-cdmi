@@ -1,0 +1,101 @@
+.WhyChoose {
+    background-color: #f7f7f7;
+}
+
+.ptb-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.chooseDtl {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.ChooseTitle span {
+    position: relative;
+}
+
+.ChooseTitle h2 {
+    padding: 10px 0 50px 0;
+    font-size: 40px;
+}
+
+.gap50 {
+    gap: 50px;
+}
+
+.choosePart {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    max-width: 100%;
+    min-height: 304px;
+}
+
+.ImgCover {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #f6475f;
+    transition: 0.1s;
+    margin: 20px auto;
+}
+
+#ic2 {
+    background-color: #ffbc06;
+}
+
+#ic3 {
+    background-color: #b3d369;
+}
+
+#ic4 {
+    background-color: #554da7;
+}
+
+#ic5 {
+    background-color: #4382ff;
+}
+
+#ic6 {
+    background-color: #f94fa4;
+}
+
+.ImgCover:hover {
+    outline: 5px solid #f6475f;
+    outline-offset: 2px;
+}
+
+#ic2:hover {
+    outline-color: #ffbc06;
+}
+
+#ic3:hover {
+    outline-color: #b3d369;
+}
+
+#ic4:hover {
+    outline-color: #554da7;
+}
+
+#ic5:hover {
+    outline-color: #4382ff;
+}
+
+#ic6:hover {
+    outline-color: #f94fa4;
+}
+
+.choosePartDtl h2 {
+    font-weight: 500;
+}
+
+.choosePartDtl p {
+    color: #888888;
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}

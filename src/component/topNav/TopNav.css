@@ -1,0 +1,44 @@
+span,h1,h2,h3,h5{
+    text-align: center ;
+}
+*{
+    outline: none;
+}
+.d-flex{
+    display: flex;
+}
+.d-grid{
+    display: grid;
+}
+.auto3{
+    grid-template-columns: auto auto auto;
+}
+.j-center{
+    justify-content: center;
+}
+.j-center{
+    justify-content:center;
+}
+.align-center{
+    align-items: center;
+}
+.TopNav{
+    color: white;
+    background-color: #003366 !important;
+    width: 100%;
+}
+.container{
+    /* width: 100%; */
+    max-width: 1440px;
+    margin: auto;
+    padding: 10px 20px;
+}
+.info a{
+    padding: 0px 10px;
+}
+.logo{
+    margin: 0px 5px;
+}
+.partOne,.partTwo,.partThree{
+    padding: 0px 50px;
+}

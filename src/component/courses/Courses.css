@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.dtlPart {
+    gap: 30px;
+}
+
+.courseParts {
+    /* background-color: rgb(231, 231, 231); */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.dtlCover h3 {
+    text-align: left !important;
+    padding: 10px 20px;
+}
+
+.courseParts img {
+    width: 100%;
+}
+
+.j-space {
+    justify-content: space-around;
+}
+
+.star {
+    color: rgb(255, 230, 0);
+}
+
+.DtlBtn {
+    background-color: #003366;
+    color: white;
+    padding: 7px 15px;
+    border: 2px solid #003366;
+    border-radius: 5px;
+}
+
+.t1 {
+    font-weight: 400;
+    display: inline;
+    position: relative;
+}
+.t1::after,.AboutT p::after,.ChooseTitle span::after,.partnerTitle span:after{
+    position: absolute;
+    content: '';
+    width: 20px !important;
+    height: 2px;
+    left: -30px;
+    top: 50%;
+    background-color: #ffbc06;
+}
+
+.t2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.btncover{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    
+}
+#a1{
+    padding: 1px 5px ;
+}
+.btn {
+    position: relative;
+    font-size: 16px;
+    border-radius: 5px;
+    background: rgb(223, 164, 0);
+    border: none;
+    padding: 15px 20px;
+    color: white;
+}

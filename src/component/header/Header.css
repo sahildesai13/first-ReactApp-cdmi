@@ -1,0 +1,34 @@
+.headerBar{
+    /* height: 20px; */
+    background-color: rgb(255, 255, 255);
+    
+}
+.leftPart img{
+    height: 50.73px;
+    width: 185px;
+}
+.NavBar{
+    list-style: none;
+}
+.NavBar a{
+    color: #003366;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 650;
+    position: relative;
+}
+.arrow{
+    /* font-size: large; */
+    font-weight: 600;
+}
+.rightPart {
+    padding-left: 0px;
+}
+@media only screen and (min-width: 1025px) {
+    .list a{
+        font-size: 14px !important;
+    }
+    .rightPart{
+        padding-left: 150px;
+    }
+}
